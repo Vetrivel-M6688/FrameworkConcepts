@@ -1,8 +1,10 @@
-package actualCode;
+package actualCodeTest;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import actualCode.Calculations;
 
 public class CalculationsTest {
 
