@@ -1,5 +1,6 @@
 package junitPrograms;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class CallingMethods {
@@ -10,6 +11,7 @@ public class CallingMethods {
 	}
 
 	@Test
+	@Ignore
 	public void testCallingMethod2() {
 		System.out.println("I am test calling method2 from Class: " + getClass());
 		// calling another class test method by using Class name directly only if it is
