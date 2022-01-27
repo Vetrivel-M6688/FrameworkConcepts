@@ -28,4 +28,5 @@ public class CallingMethods {
 		eoa.testMethod1();
 		eoa.testMethod2();
 	}
+	
 }
